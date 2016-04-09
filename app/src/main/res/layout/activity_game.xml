@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fajarmawan.tebakgambar.GameActivity"
+    android:background="#5596e6">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:id="@+id/imageViewStatusBar"
+        android:background="#0183d6"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageView4"
+        android:background="@mipmap/favorite21"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1"
+        android:id="@+id/textViewNyawa"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="10dp"
+        android:textIsSelectable="false"
+        android:textSize="32dp" />
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/imageView5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_yellow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="60"
+        android:id="@+id/textViewTimer"
+        android:textSize="32dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageViewKarakter"
+        android:background="#fff"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textViewNyawa" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:id="@+id/editTextJawaban"
+        android:layout_below="@+id/imageViewKarakter"
+        android:layout_alignStart="@+id/imageViewKarakter"
+        android:layout_marginTop="32dp"
+        android:background="#f5f5f5"
+        android:textColor="#000"
+        android:clickable="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEK"
+        android:id="@+id/buttonCek"
+        android:layout_below="@+id/editTextJawaban"
+        android:layout_centerHorizontal="true"
+        android:background="#325c80"
+        android:layout_marginTop="10dp"
+        android:textSize="32dp" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/buttonTanya"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@mipmap/question58"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Score"
+        android:id="@+id/textViewScore"
+        android:layout_above="@+id/imageViewKarakter"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

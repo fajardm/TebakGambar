@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="208dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Laporan"
+            android:id="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:textSize="28sp"
+            android:textColor="#444"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editTextLaporan"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/boder_hitam"
+            android:layout_above="@+id/buttonKirimLaporan"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:textColor="#000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KIRIM"
+            android:id="@+id/buttonKirimLaporan"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:background="#5596e6"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fajarmawan.tebakgambar.MainActivity"
+    android:background="#5596e6">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="190dp"
+        android:id="@+id/imageView2"
+        android:background="#fff"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="360dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/circle_white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Tebak Gambar Karakter Anime Manga"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="#5596e6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="-?-"
+        android:id="@+id/textView2"
+        android:textColor="#5596e6"
+        android:textIsSelectable="false"
+        android:textSize="200sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="MAIN"
+        android:id="@+id/buttonMain"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tombol_main"
+        android:layout_marginTop="72dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Score"
+        android:id="@+id/textViewScoreMain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

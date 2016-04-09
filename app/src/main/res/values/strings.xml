@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TebakGambar</string>
+    <string name="setengah_lingkaran_desain_home">Setengah Lingkaran Desain Home</string>
+    <string name="parse_app_id">2G897wAxFTv3sL6Y7QlntMOQYLX7CBXlEaDBmUwu</string>
+    <string name="parse_client_key">IbLoFancofiN7V90jq7tjCdS0D6tuYJT3ZSGx14x</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
